@@ -1,0 +1,1007 @@
+[
+    {
+        "id": "stepper_tab_clean",
+        "type": "tab",
+        "label": "Stepper Panel",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "97192799.714bd",
+        "type": "subflow",
+        "name": "Stepper Motor",
+        "info": "",
+        "in": [
+            {
+                "x": 160,
+                "y": 100,
+                "wires": [
+                    {
+                        "id": "92e9f528.857ba"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1044,
+                "y": 79,
+                "wires": [
+                    {
+                        "id": "b833a444.b121f8",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 1041,
+                "y": 137,
+                "wires": [
+                    {
+                        "id": "b833a444.b121f8",
+                        "port": 1
+                    }
+                ]
+            },
+            {
+                "x": 1042,
+                "y": 189,
+                "wires": [
+                    {
+                        "id": "b833a444.b121f8",
+                        "port": 2
+                    }
+                ]
+            },
+            {
+                "x": 1044,
+                "y": 242,
+                "wires": [
+                    {
+                        "id": "b833a444.b121f8",
+                        "port": 3
+                    }
+                ]
+            },
+            {
+                "x": 1025,
+                "y": 379,
+                "wires": [
+                    {
+                        "id": "b833a444.b121f8",
+                        "port": 4
+                    },
+                    {
+                        "id": "8aa480a.a401a",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "7b2a45b38439534e",
+        "type": "subflow",
+        "name": "Stepper Motor (1)",
+        "info": "",
+        "in": [
+            {
+                "x": 160,
+                "y": 100,
+                "wires": [
+                    {
+                        "id": "509120125ea8b28f"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1044,
+                "y": 79,
+                "wires": [
+                    {
+                        "id": "1d032101a1247c76",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 1041,
+                "y": 137,
+                "wires": [
+                    {
+                        "id": "1d032101a1247c76",
+                        "port": 1
+                    }
+                ]
+            },
+            {
+                "x": 1042,
+                "y": 189,
+                "wires": [
+                    {
+                        "id": "1d032101a1247c76",
+                        "port": 2
+                    }
+                ]
+            },
+            {
+                "x": 1044,
+                "y": 242,
+                "wires": [
+                    {
+                        "id": "1d032101a1247c76",
+                        "port": 3
+                    }
+                ]
+            },
+            {
+                "x": 1025,
+                "y": 379,
+                "wires": [
+                    {
+                        "id": "1d032101a1247c76",
+                        "port": 4
+                    },
+                    {
+                        "id": "81c88e14f29e09ec",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "4489db0d174395e3",
+        "type": "subflow",
+        "name": "Stepper Motor (2)",
+        "info": "",
+        "in": [
+            {
+                "x": 160,
+                "y": 100,
+                "wires": [
+                    {
+                        "id": "6df80443edd6abb4"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1044,
+                "y": 79,
+                "wires": [
+                    {
+                        "id": "2f77348c5d95f942",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 1041,
+                "y": 137,
+                "wires": [
+                    {
+                        "id": "2f77348c5d95f942",
+                        "port": 1
+                    }
+                ]
+            },
+            {
+                "x": 1042,
+                "y": 189,
+                "wires": [
+                    {
+                        "id": "2f77348c5d95f942",
+                        "port": 2
+                    }
+                ]
+            },
+            {
+                "x": 1044,
+                "y": 242,
+                "wires": [
+                    {
+                        "id": "2f77348c5d95f942",
+                        "port": 3
+                    }
+                ]
+            },
+            {
+                "x": 1025,
+                "y": 379,
+                "wires": [
+                    {
+                        "id": "2f77348c5d95f942",
+                        "port": 4
+                    },
+                    {
+                        "id": "834f8bca4ca3c88f",
+                        "port": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "cb25bdc164b2480a",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "53fc89f75471e86d",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#18191b",
+            "primary": "#0d74ce",
+            "bgPage": "#111113",
+            "groupBg": "#212225",
+            "groupOutline": "#363a3f"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "9352f1d0e25fbd64",
+        "type": "ui-page",
+        "name": "Flex Power Switch",
+        "ui": "cb25bdc164b2480a",
+        "path": "/powerswitch",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "53fc89f75471e86d",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "3f2d0229fd9eba3c",
+        "type": "ui-group",
+        "name": "Group 1",
+        "page": "9352f1d0e25fbd64",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8aa480a.a401a",
+        "type": "function",
+        "z": "97192799.714bd",
+        "name": "Toggle Direction",
+        "func": "var direction = flow.get('direction')||0;\n\nif (direction === -1)\n{\n    direction = 1;\n}\nelse {\n    direction = -1;\n}\nflow.set('direction',direction);\nmsg.payload = direction;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 431,
+        "y": 267,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92e9f528.857ba",
+        "type": "switch",
+        "z": "97192799.714bd",
+        "name": "Step or Direction",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Step",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Direction",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 291,
+        "y": 171,
+        "wires": [
+            [
+                "1dff41aa.06dbde"
+            ],
+            [
+                "8aa480a.a401a"
+            ]
+        ]
+    },
+    {
+        "id": "34fcd685.ab0932",
+        "type": "comment",
+        "z": "97192799.714bd",
+        "name": "Flow Variables",
+        "info": "* Direction\n* Sequence\n* SequenceIndex",
+        "x": 279,
+        "y": 42,
+        "wires": []
+    },
+    {
+        "id": "b833a444.b121f8",
+        "type": "function",
+        "z": "97192799.714bd",
+        "name": "Sequence Generator",
+        "func": "var seqindex = context.get('seqindex')||0;\nvar sequence = [ [1,0,0,0],[1,1,0,0],[0,1,0,0],[0,1,1,0],[0,0,1,0],[0,0,1,1],[0,0,0,1],[1,0,0,1]]\nvar direction = flow.get('direction');\n\nseqindex = (seqindex % (sequence.length));\nif (seqindex == -1) {seqindex = sequence.length-1;}\n\nmsg.payload = sequence[seqindex];\nmsg.seqindex = seqindex;\nmsg.direction = direction;\n\ncontext.set('seqindex',seqindex+direction);\n\nnode.status({fill:\"green\",shape:\"dot\",text:\"Step\"});\nnode.status({});\n\nreturn GenerateOutput(seqindex);\n\nfunction GenerateOutput(index) {\n    return [ NewMessage(sequence[index][0]), NewMessage(sequence[index][1]),NewMessage(sequence[index][2]),NewMessage(sequence[index][3]), msg  ];\n}\n\nfunction NewMessage(val) {\n    return { payload:val };\n}",
+        "outputs": 5,
+        "noerr": 0,
+        "x": 720,
+        "y": 174,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1dff41aa.06dbde",
+        "type": "function",
+        "z": "97192799.714bd",
+        "name": "Multistep",
+        "func": "var outputMsgs = [];\nvar steps = msg.payload;\nfor (var count = 0; count < steps; count++) { \n    outputMsgs.push({payload:1});\n}\nreturn [ outputMsgs ];",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 434,
+        "y": 90,
+        "wires": [
+            [
+                "637b5925.225a28"
+            ]
+        ]
+    },
+    {
+        "id": "637b5925.225a28",
+        "type": "delay",
+        "z": "97192799.714bd",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "2",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 615,
+        "y": 76,
+        "wires": [
+            [
+                "b833a444.b121f8"
+            ]
+        ]
+    },
+    {
+        "id": "81c88e14f29e09ec",
+        "type": "function",
+        "z": "7b2a45b38439534e",
+        "name": "Toggle Direction",
+        "func": "var direction = flow.get('direction')||0;\n\nif (direction === -1)\n{\n    direction = 1;\n}\nelse {\n    direction = -1;\n}\nflow.set('direction',direction);\nmsg.payload = direction;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 431,
+        "y": 267,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "509120125ea8b28f",
+        "type": "switch",
+        "z": "7b2a45b38439534e",
+        "name": "Step or Direction",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Step",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Direction",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 291,
+        "y": 171,
+        "wires": [
+            [
+                "95dc16fb3da01416"
+            ],
+            [
+                "81c88e14f29e09ec"
+            ]
+        ]
+    },
+    {
+        "id": "fcbf024910d5ac0b",
+        "type": "comment",
+        "z": "7b2a45b38439534e",
+        "name": "Flow Variables",
+        "info": "* Direction\n* Sequence\n* SequenceIndex",
+        "x": 279,
+        "y": 42,
+        "wires": []
+    },
+    {
+        "id": "1d032101a1247c76",
+        "type": "function",
+        "z": "7b2a45b38439534e",
+        "name": "Sequence Generator",
+        "func": "var seqindex = context.get('seqindex')||0;\nvar sequence = [,,,,,,, ];\nvar direction = flow.get('direction');\n\nseqindex = (seqindex % (sequence.length));\nif (seqindex == -1) {seqindex = sequence.length-1;}\n\nmsg.payload = sequence[seqindex];\nmsg.seqindex = seqindex;\nmsg.direction = direction;\n\ncontext.set('seqindex',seqindex+direction);\n\nnode.status({fill:\"green\",shape:\"dot\",text:\"Step\"});\nnode.status({});\n\nreturn GenerateOutput(seqindex);\n\nfunction GenerateOutput(index) {\n    return [ NewMessage(sequence[index]), NewMessage(sequence[index]),NewMessage(sequence[index]),NewMessage(sequence[index]), msg  ];\n}\n\nfunction NewMessage(val) {\n    return { payload:val };\n}",
+        "outputs": 5,
+        "noerr": 0,
+        "x": 720,
+        "y": 174,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "95dc16fb3da01416",
+        "type": "function",
+        "z": "7b2a45b38439534e",
+        "name": "Multistep",
+        "func": "var outputMsgs = [];\nvar steps = msg.payload;\nfor (var count = 0; count < steps; count++) { \n    outputMsgs.push({payload:1});\n}\nreturn [ outputMsgs ];",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 434,
+        "y": 90,
+        "wires": [
+            [
+                "e16282a949d1aa98"
+            ]
+        ]
+    },
+    {
+        "id": "e16282a949d1aa98",
+        "type": "delay",
+        "z": "7b2a45b38439534e",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "2",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 615,
+        "y": 76,
+        "wires": [
+            [
+                "1d032101a1247c76"
+            ]
+        ]
+    },
+    {
+        "id": "834f8bca4ca3c88f",
+        "type": "function",
+        "z": "4489db0d174395e3",
+        "name": "Toggle Direction",
+        "func": "var direction = flow.get('direction')||0;\n\nif (direction === -1)\n{\n    direction = 1;\n}\nelse {\n    direction = -1;\n}\nflow.set('direction',direction);\nmsg.payload = direction;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 431,
+        "y": 267,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6df80443edd6abb4",
+        "type": "switch",
+        "z": "4489db0d174395e3",
+        "name": "Step or Direction",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Step",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Direction",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "outputs": 2,
+        "x": 291,
+        "y": 171,
+        "wires": [
+            [
+                "3e627c4c396669b7"
+            ],
+            [
+                "834f8bca4ca3c88f"
+            ]
+        ]
+    },
+    {
+        "id": "9181202dee6b6a54",
+        "type": "comment",
+        "z": "4489db0d174395e3",
+        "name": "Flow Variables",
+        "info": "* Direction\n* Sequence\n* SequenceIndex",
+        "x": 279,
+        "y": 42,
+        "wires": []
+    },
+    {
+        "id": "2f77348c5d95f942",
+        "type": "function",
+        "z": "4489db0d174395e3",
+        "name": "Sequence Generator",
+        "func": "var seqindex = context.get('seqindex')||0;\nvar sequence = [,,,,,,, ];\nvar direction = flow.get('direction');\n\nseqindex = (seqindex % (sequence.length));\nif (seqindex == -1) {seqindex = sequence.length-1;}\n\nmsg.payload = sequence[seqindex];\nmsg.seqindex = seqindex;\nmsg.direction = direction;\n\ncontext.set('seqindex',seqindex+direction);\n\nnode.status({fill:\"green\",shape:\"dot\",text:\"Step\"});\nnode.status({});\n\nreturn GenerateOutput(seqindex);\n\nfunction GenerateOutput(index) {\n    return [ NewMessage(sequence[index]), NewMessage(sequence[index]),NewMessage(sequence[index]),NewMessage(sequence[index]), msg  ];\n}\n\nfunction NewMessage(val) {\n    return { payload:val };\n}",
+        "outputs": 5,
+        "noerr": 0,
+        "x": 720,
+        "y": 174,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3e627c4c396669b7",
+        "type": "function",
+        "z": "4489db0d174395e3",
+        "name": "Multistep",
+        "func": "var outputMsgs = [];\nvar steps = msg.payload;\nfor (var count = 0; count < steps; count++) { \n    outputMsgs.push({payload:1});\n}\nreturn [ outputMsgs ];",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 434,
+        "y": 90,
+        "wires": [
+            [
+                "3adc2ee274d85ed6"
+            ]
+        ]
+    },
+    {
+        "id": "3adc2ee274d85ed6",
+        "type": "delay",
+        "z": "4489db0d174395e3",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "2",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 615,
+        "y": 76,
+        "wires": [
+            [
+                "2f77348c5d95f942"
+            ]
+        ]
+    },
+    {
+        "id": "f_gate",
+        "type": "function",
+        "z": "stepper_tab_clean",
+        "name": "Smart Gate Lock",
+        "func": "var isRunning = context.get('isRunning') || false;\n\n// If an unlock signal arrives from the completion loop, clear the lock state\nif (msg.topic === \"reset_gate\") {\n    context.set('isRunning', false);\n    return null;\n}\n\n// If a button click arrives while the sequence is active, drop it\nif (isRunning) {\n    return null;\n}\n\n// Lock the gate and let the original command pass through\ncontext.set('isRunning', true);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 140,
+        "wires": [
+            [
+                "f_stat",
+                "f_lock",
+                "f_sw"
+            ]
+        ]
+    },
+    {
+        "id": "f_lock",
+        "type": "function",
+        "z": "stepper_tab_clean",
+        "name": "Lockout UI",
+        "func": "var m1={disabled:true}; return [m1,m1];",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 450,
+        "y": 80,
+        "wires": [
+            [
+                "f_btn_tap"
+            ],
+            [
+                "f_btn_rst"
+            ]
+        ]
+    },
+    {
+        "id": "f_sw",
+        "type": "switch",
+        "z": "stepper_tab_clean",
+        "name": "Route",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Tap",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Reset",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 240,
+        "wires": [
+            [
+                "f_cw"
+            ],
+            [
+                "f_cw_r"
+            ]
+        ]
+    },
+    {
+        "id": "f_cw",
+        "type": "exec",
+        "z": "stepper_tab_clean",
+        "command": "python3 /home/pi/stepper.py --steps 512 --direction cw",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Tap CW",
+        "x": 620,
+        "y": 240,
+        "wires": [
+            [
+                "f_stat",
+                "f_d1"
+            ],
+            [
+                "f_err"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f_cw_r",
+        "type": "exec",
+        "z": "stepper_tab_clean",
+        "command": "python3 /home/pi/stepper.py --steps 512 --direction cw",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Reset CW",
+        "x": 520,
+        "y": 460,
+        "wires": [
+            [
+                "f_stat",
+                "f_d2"
+            ],
+            [
+                "f_err"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f_d1",
+        "type": "delay",
+        "z": "stepper_tab_clean",
+        "name": "0.5s",
+        "pauseType": "delay",
+        "timeout": "500",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 780,
+        "y": 100,
+        "wires": [
+            [
+                "f_ccw"
+            ]
+        ]
+    },
+    {
+        "id": "f_d2",
+        "type": "delay",
+        "z": "stepper_tab_clean",
+        "name": "5s",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 710,
+        "y": 420,
+        "wires": [
+            [
+                "f_ccw"
+            ]
+        ]
+    },
+    {
+        "id": "f_ccw",
+        "type": "exec",
+        "z": "stepper_tab_clean",
+        "command": "python3 /home/pi/stepper.py --steps 512 --direction ccw",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Run CCW",
+        "x": 920,
+        "y": 240,
+        "wires": [
+            [
+                "f_stat",
+                "f_d3"
+            ],
+            [
+                "f_err"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f_d3",
+        "type": "delay",
+        "z": "stepper_tab_clean",
+        "name": "5s Wrap",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 1100,
+        "y": 240,
+        "wires": [
+            [
+                "f_done"
+            ]
+        ]
+    },
+    {
+        "id": "f_done",
+        "type": "function",
+        "z": "stepper_tab_clean",
+        "name": "Done State",
+        "func": "var s = { payload: \"Sequence Completed\" };\nvar b = { disabled: false };\nvar r = { topic: \"reset_gate\" };\nreturn [s, b, b, r];",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 240,
+        "wires": [
+            [
+                "f_stat"
+            ],
+            [
+                "f_btn_tap"
+            ],
+            [
+                "f_btn_rst"
+            ],
+            [
+                "f_gate"
+            ]
+        ]
+    },
+    {
+        "id": "f_err",
+        "type": "function",
+        "z": "stepper_tab_clean",
+        "name": "Err Trap",
+        "func": "var txt = msg.payload ? msg.payload.toString().trim() : \"Error\";\nvar s = { payload: \"ERROR: \" + txt };\nvar b = { disabled: false };\nvar r = { topic: \"reset_gate\" };\nreturn [s, b, b, r];",
+        "outputs": 4,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 580,
+        "wires": [
+            [
+                "f_stat"
+            ],
+            [
+                "f_btn_tap"
+            ],
+            [
+                "f_btn_rst"
+            ],
+            [
+                "f_gate"
+            ]
+        ]
+    },
+    {
+        "id": "f_btn_tap",
+        "type": "ui-button",
+        "z": "stepper_tab_clean",
+        "group": "3f2d0229fd9eba3c",
+        "name": "Tap",
+        "label": "Tap",
+        "order": 1,
+        "tooltip": "",
+        "color": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "Tap",
+        "payloadType": "str",
+        "topic": "topic",
+        "x": 90,
+        "y": 100,
+        "wires": [
+            [
+                "f_gate"
+            ]
+        ]
+    },
+    {
+        "id": "f_btn_rst",
+        "type": "ui-button",
+        "z": "stepper_tab_clean",
+        "group": "3f2d0229fd9eba3c",
+        "name": "Reset",
+        "label": "Reset",
+        "order": 2,
+        "tooltip": "",
+        "color": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "Reset",
+        "payloadType": "str",
+        "topic": "topic",
+        "x": 90,
+        "y": 180,
+        "wires": [
+            [
+                "f_gate"
+            ]
+        ]
+    },
+    {
+        "id": "f_stat",
+        "type": "ui-text",
+        "z": "stepper_tab_clean",
+        "group": "3f2d0229fd9eba3c",
+        "order": 3,
+        "name": "Status Monitor",
+        "label": "Status:",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "",
+        "x": 560,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "97362809e99dae86",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.31.0"
+        }
+    }
+]
